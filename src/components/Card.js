@@ -19,7 +19,7 @@ export default function Card(props) {
             <span className="date--end">- {props.data.endDate}</span>
         </div>
         <div className="desc">
-            <p className="description">{props.data.description}</p>
+            <p className="description">Hello!{props.data.description}</p>
         </div>
 
     </div >
