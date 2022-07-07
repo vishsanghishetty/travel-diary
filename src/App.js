@@ -4,6 +4,7 @@ import Card from './components/Card';
 import Data from './data'
 
 
+
 export default function App() {
   const dataArray = Data.map(data =>
     <Card

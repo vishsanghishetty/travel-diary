@@ -32,31 +32,25 @@ nav {
 .card--container {
   width: 470px;
   height: 168px;
+  display: flex;
   margin: 40px 40px;
-}
-.card-left--container {
-  float: left;
 }
 
 .card-right--container {
-  margin-left: 150px;
-}
-
-.first--set {
   display: flex;
-  padding-top: 20px;
+  align-items: baseline;
 }
 
 .card--img {
   width: 126px; /*set the width or max-width*/
-  height: 175px; /*this if value is auto makes sure to maintain the aspect ratio*/
+  height: auto; /*this makes sure to maintain the aspect ratio*/
   object-fit: cover;
   border-radius: 5px;
 }
 .card--icon {
   width: 7px;
   height: 9.55px;
-  margin-right: 4px;
+  margin: 0px 5px 0 15px;
   line-height: 12px;
 }
 
@@ -70,29 +64,8 @@ nav {
 }
 
 .location {
+  margin-right: 10px;
   font-size: 10.24px;
   font-weight: 400;
   line-height: 12px;
-  margin-right: 12px;
-}
-
-.title {
-  font-size: 15px;
-  line-height: 15px;
-  font-style: normal;
-  font-weight: 700;
-  white-space: nowrap;
-}
-
-div.date--range {
-  font-size: 10.24px;
-  font-weight: 700;
-  line-height: 12.39px;
-}
-
-p.description {
-  font-size: 10.24px;
-}
-
-div.desc {
 }
